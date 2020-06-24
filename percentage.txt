@@ -1,0 +1,6 @@
+Name	P	C	M
+samyak	91	92	92
+sachin	93	92	94
+Rajat	94	87	88
+Simran	90	87	76
+Nidhi	91	78	100

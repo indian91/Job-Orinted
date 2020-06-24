@@ -1,0 +1,82 @@
+1.Select the output of the following String operations
+
+str1 = "my isname isisis jameis isis bond";
+sub = "is";
+print(str1.count(sub, 6))
+
+
+2.Consider this statement:
+
+>>> print(r'foo\\bar\nbaz')
+What is the output
+
+
+3.  How many levels deep are sublists in this list?
+l=[]
+l.append([[1,2],[3,4]])
+l.append(6)
+l[0][1].append([11,12])
+l[0].append(10)
+
+
+4.15.What is output of following code
+num=3
+while True:
+   if (num%0o12 == 0):
+      break
+print(num)
+num += 1
+
+
+5.What is the output of the following Python program? 
+num1 = 8 
+if num1 >= 91: 
+	num2 = 3 
+else: 
+	if num1 < 9: 
+		num2 = 4 
+	else: 
+		num2 = 2 
+x = num2 * num1 + 1 
+print (x,x%11)
+
+
+6..What will be the output of the following code snippet?
+a=[11,12,13,14,15,16,17,18,19]
+a[::2]=100,200,300,400,500,600
+print(a)
+
+
+7.What will be the output of the following code snippet?
+my_dict = {}
+my_dict[1] = 1
+my_dict['1'] = 2
+my_dict[1.0] = 4
+
+sum = 0
+for k in my_dict:
+    sum += my_dict[k]
+    
+print (sum)
+
+8.What gets printed? 
+def addItem(listParam): 
+	listParam += [1] 
+mylist = [1, 2, 3, 4] 
+addItem(mylist) 
+print(len(mylist))
+
+
+9.What gets printed? 
+def dostuff(param1, *param2): 
+	print(type(param2)) 
+dostuff('apples', 'bananas', 'cherry', 'dates')Marks 1
+
+
+10.What will be the output of the following code snippet?
+x=30
+y=120.00
+if x%5==0 and (x+0.50)<y:
+    print("%.2f"%(y-x-.50))
+else:
+    print("%.2f"%y)
